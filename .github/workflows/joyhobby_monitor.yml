@@ -3,7 +3,7 @@ name: JoyHobby Bandai Monitor
 on:
   schedule:
     # 매일 밤 11시(KST 23:00 = UTC 14:00) 실행
-    - cron: '0 14 * * *'
+    - cron: '17 12 * * *'
   workflow_dispatch:
     inputs:
       force:
